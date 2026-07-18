@@ -64,7 +64,7 @@ export default function AboutUs() {
           <div className="relative">
             <div className="absolute -inset-4 bg-gradient-to-tr from-slate-100 to-orange-100/30 rounded-3xl blur-xl -z-10"></div>
             <img
-              src="/src/assets/images/black_students_studying_1784380861016.jpg"
+              src="girlsm.jpeg"
               alt="Black Students studying online"
               className="rounded-2xl shadow-xl object-cover w-full h-[380px] border border-slate-100 relative z-10"
               referrerPolicy="no-referrer"
