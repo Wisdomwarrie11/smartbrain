@@ -203,8 +203,8 @@ export default function Home({
       </section>
 
       {/* Minimalist Bento Feature Grid */}
-      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-slate-50/50 border-y border-slate-100 relative">
-        <div className="max-w-7xl mx-auto space-y-16">
+      <section className="py-8 px-4 sm:px-6 lg:px-8 bg-slate-50/50 border-y border-slate-100 relative">
+        <div className="max-w-7xl mx-auto space-y-8">
           
           <div className="text-center space-y-4 max-w-2xl mx-auto">
             <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400">Academy Highlights</span>
@@ -233,7 +233,7 @@ export default function Home({
       </section>
 
       {/* Featured Courses Showcase */}
-      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-8 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto space-y-16">
           
           <div className="flex flex-col sm:flex-row justify-between items-end gap-6 border-b border-slate-100 pb-8">
@@ -316,7 +316,7 @@ export default function Home({
       </section>
 
       {/* Elegant Connect-The-Dots Enrollment Steps */}
-      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-slate-50/50 border-t border-slate-100">
+      <section className="py-8 px-4 sm:px-6 lg:px-8 bg-slate-50/50 border-t border-slate-100">
         <div className="max-w-7xl mx-auto space-y-16">
           <div className="text-center space-y-4 max-w-2xl mx-auto">
             <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400">Admission Flow</span>
@@ -354,7 +354,7 @@ export default function Home({
       </section>
 
       {/* Editorial Testimonials Grid */}
-      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-8 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-5xl mx-auto">
           <div className="bg-[#1F3864]/5 rounded-3xl p-8 md:p-14 border border-[#1F3864]/10 space-y-12 relative overflow-hidden">
             <div className="absolute right-0 top-0 text-[#1F3864]/5 select-none pointer-events-none translate-x-12 -translate-y-12">
