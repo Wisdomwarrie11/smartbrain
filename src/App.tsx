@@ -289,7 +289,7 @@ export default function App() {
           >
             <div>
             <img
-            src="/src/assets/images/logosb.png"
+            src="logosb.png"
             alt="Black students studying"
             className="w-50 h-50 object-cover  filter brightness-[0.7] contrast-[1.1]"
           />
@@ -399,19 +399,15 @@ export default function App() {
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 border-b border-white/5 pb-12">
           
           {/* Column 1: Brand details */}
-          <div className="space-y-4">
-            <div className="flex items-center gap-2.5">
-              <div className="w-10 h-10 rounded-xl bg-white text-[#122340] flex items-center justify-center font-black text-base border-2 border-[#E86A1A]/40">
-                SB
-              </div>
-              <div>
-                <span className="text-base font-black tracking-tight block">SmartBrain EdTech</span>
-                <span className="text-[9px] font-black tracking-widest text-[#E86A1A] block uppercase">Learn Smart. Think Smart.</span>
-              </div>
+          <div className="space-y-1">
+            <div className="flex items-center">
+            <img
+            src="logosb.png"
+            alt="Black students studying"
+            className="w-50 h-50 object-cover  filter brightness-[0.7] contrast-[1.1]"
+          />
             </div>
-            <p className="text-xs text-gray-300 leading-relaxed font-normal">
-              Empowering primary pupils, secondary students, and corporate professionals with elite digital curriculum guides, WAEC preparation, and remote tech skills.
-            </p>
+
           </div>
 
           {/* Column 2: Quick Links */}
