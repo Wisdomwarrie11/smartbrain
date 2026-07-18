@@ -292,7 +292,6 @@ export default function App() {
             src="/src/assets/images/logosb.png"
             alt="Black students studying"
             className="w-50 h-50 object-cover  filter brightness-[0.7] contrast-[1.1]"
-            referrerPolicy="no-referrer"
           />
             </div>
           </div>
