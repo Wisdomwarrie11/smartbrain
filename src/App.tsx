@@ -287,16 +287,13 @@ export default function App() {
             onClick={() => setActiveTab('home')}
             className="flex items-center gap-2.5 cursor-pointer select-none group"
           >
-            <div className="w-11 h-11 rounded-xl bg-gradient-to-br from-[#1F3864] to-[#122340] flex items-center justify-center text-white font-black text-lg shadow-md border-2 border-[#E86A1A]/40 group-hover:scale-105 transition-transform duration-300">
-              SB
-            </div>
             <div>
-              <span className="text-lg font-black tracking-tight text-[#1F3864] block leading-none">
-                SmartBrain <span className="text-[#E86A1A]">EdTech</span>
-              </span>
-              <span className="text-[9px] font-black tracking-widest text-[#E86A1A] block uppercase mt-0.5">
-                Learn Smart. Think Smart.
-              </span>
+            <img
+            src="/src/assets/images/logosb.png"
+            alt="Black students studying"
+            className="w-50 h-50 object-cover  filter brightness-[0.7] contrast-[1.1]"
+            referrerPolicy="no-referrer"
+          />
             </div>
           </div>
 

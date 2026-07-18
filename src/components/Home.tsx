@@ -125,7 +125,7 @@ export default function Home({
             {/* Premium minimal metrics block */}
             <div className="pt-8 grid grid-cols-3 gap-6 border-t border-white/10 max-w-md mx-auto lg:mx-0">
               <div className="space-y-1">
-                <p className="text-3xl font-bold tracking-tight text-white heading-font">1,200+</p>
+                <p className="text-3xl font-bold tracking-tight text-white heading-font">100+</p>
                 <p className="text-[11px] font-medium uppercase tracking-wider text-slate-400">Active Pupils</p>
               </div>
               <div className="space-y-1 border-x border-white/10 px-6">
@@ -174,9 +174,9 @@ export default function Home({
                     <span className="text-[10px] text-slate-400 font-mono">Basic 1 - 6</span>
                   </div>
                   <div className="space-y-1">
-                    <h5 className="font-bold text-xs text-white group-hover:text-[#ff8e42] transition-colors heading-font">Primary Foundation & Phonics</h5>
+                    <h5 className="font-bold text-xs text-white group-hover:text-[#ff8e42] transition-colors heading-font">Primary Foundation</h5>
                     <p className="text-[11px] text-slate-300 leading-relaxed font-normal">
-                      Focusing on reading pronunciation, vocabulary development, early creative storytelling, and elementary mathematics.
+                      Focusing on  self-development, early creative thinking, and foundational mathematics.
                     </p>
                   </div>
                   <div className="flex items-center gap-1.5 text-[10px] text-slate-400 font-medium">
