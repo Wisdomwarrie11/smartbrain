@@ -15,6 +15,7 @@ import {
 } from 'lucide-react';
 import { Course, Tutor } from '../types';
 
+
 interface HomeProps {
   courses: Course[];
   tutors: Tutor[];
@@ -78,10 +79,18 @@ export default function Home({
       <section className="relative overflow-hidden bg-[#122340] text-white py-20 md:py-32 px-4 sm:px-6 lg:px-8 border-b border-slate-800">
         {/* Background image overlay */}
         <div className="absolute inset-0 z-0">
+          {/* Mobile Image */}
           <img
-            src="/src/assets/images/black_students_studying_1784380861016.jpg"
-            alt="Black students studying"
-            className="w-full h-full object-cover opacity-20 filter brightness-[0.7] contrast-[1.1]"
+            src='girlsm.jpeg'
+            alt="Black student studying"
+            className="block md:hidden w-full h-full object-cover opacity-50 filter brightness-[0.9] contrast-[1.1]"
+            referrerPolicy="no-referrer"
+          />
+          {/* Tablet & Desktop Image */}
+          <img
+            src='smbg.png'
+            alt="Black students studying together"
+            className="hidden md:block w-full h-full object-cover opacity-50 filter brightness-[0.9] contrast-[1.1]"
             referrerPolicy="no-referrer"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-[#122340] via-[#122340]/90 to-transparent"></div>
@@ -125,7 +134,7 @@ export default function Home({
             {/* Premium minimal metrics block */}
             <div className="pt-8 grid grid-cols-3 gap-6 border-t border-white/10 max-w-md mx-auto lg:mx-0">
               <div className="space-y-1">
-                <p className="text-3xl font-bold tracking-tight text-white heading-font">100+</p>
+                <p className="text-3xl font-bold tracking-tight text-white heading-font">1,200+</p>
                 <p className="text-[11px] font-medium uppercase tracking-wider text-slate-400">Active Pupils</p>
               </div>
               <div className="space-y-1 border-x border-white/10 px-6">
@@ -140,85 +149,6 @@ export default function Home({
 
           </div>
 
-          {/* Targeted Curriculum Programs Panel for Primary & Secondary School Students */}
-          <div className="lg:col-span-5 relative flex justify-center">
-            <div className="absolute -inset-4 bg-gradient-to-r from-orange-500/20 to-indigo-500/10 rounded-3xl blur-2xl -z-10 opacity-75"></div>
-            
-            <div className="relative bg-[#1a2f52] border border-slate-700/50 shadow-[0_20px_50px_rgba(0,0,0,0.3)] rounded-3xl p-6 sm:p-7 max-w-md w-full space-y-6">
-              
-              {/* Card Header */}
-              <div className="flex items-center justify-between border-b border-slate-700/50 pb-4">
-                <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-xl bg-orange-500/10 border border-orange-500/30 flex items-center justify-center text-[#E86A1A]">
-                    <GraduationCap className="w-5 h-5" />
-                  </div>
-                  <div>
-                    <h4 className="font-bold text-sm text-white tracking-tight heading-font">Academy Tiers</h4>
-                    <p className="text-[10px] text-slate-300">Targeted Educational Framework</p>
-                  </div>
-                </div>
-                <span className="px-2.5 py-1 rounded-full bg-orange-500/10 text-[#ff8e42] font-bold text-[9px] uppercase tracking-wider border border-[#E86A1A]/20">
-                  Nigerian Syllabus
-                </span>
-              </div>
-              
-              {/* Tiers List */}
-              <div className="space-y-4">
-                
-                {/* Primary Education Card */}
-                <div className="p-4 rounded-2xl bg-[#122340]/60 border border-slate-700/40 hover:border-orange-500/40 transition-all duration-300 space-y-2.5 group">
-                  <div className="flex justify-between items-center">
-                    <span className="px-2 py-0.5 rounded-md bg-emerald-500/10 text-emerald-400 font-bold text-[8px] uppercase tracking-wider border border-emerald-500/20">
-                      Primary School
-                    </span>
-                    <span className="text-[10px] text-slate-400 font-mono">Basic 1 - 6</span>
-                  </div>
-                  <div className="space-y-1">
-                    <h5 className="font-bold text-xs text-white group-hover:text-[#ff8e42] transition-colors heading-font">Primary Foundation</h5>
-                    <p className="text-[11px] text-slate-300 leading-relaxed font-normal">
-                      Focusing on  self-development, early creative thinking, and foundational mathematics.
-                    </p>
-                  </div>
-                  <div className="flex items-center gap-1.5 text-[10px] text-slate-400 font-medium">
-                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
-                    <span>Designed for Ages 5 - 11</span>
-                  </div>
-                </div>
-
-                {/* Secondary Education Card */}
-                <div className="p-4 rounded-2xl bg-[#122340]/60 border border-slate-700/40 hover:border-orange-500/40 transition-all duration-300 space-y-2.5 group">
-                  <div className="flex justify-between items-center">
-                    <span className="px-2 py-0.5 rounded-md bg-orange-500/10 text-orange-400 font-bold text-[8px] uppercase tracking-wider border border-orange-500/20">
-                      Secondary School
-                    </span>
-                    <span className="text-[10px] text-slate-400 font-mono">JS 1 - SS 3</span>
-                  </div>
-                  <div className="space-y-1">
-                    <h5 className="font-bold text-xs text-white group-hover:text-[#ff8e42] transition-colors heading-font">SSCE, UTME & WAEC Masterclass</h5>
-                    <p className="text-[11px] text-slate-300 leading-relaxed font-normal">
-                      Intensive subject-matter drills in Mathematics, Physics, Chemistry, Biology, and English Language.
-                    </p>
-                  </div>
-                  <div className="flex items-center gap-1.5 text-[10px] text-slate-400 font-medium">
-                    <span className="w-1.5 h-1.5 rounded-full bg-[#E86A1A]"></span>
-                    <span>JAMB, WAEC & NECO Past-Questions Focus</span>
-                  </div>
-                </div>
-
-              </div>
-
-              {/* Action Button */}
-              <button
-                id="btn-hero-learn-more-tiers"
-                onClick={() => onNavigate('courses')}
-                className="w-full py-3 rounded-xl bg-[#E86A1A] hover:bg-[#d05c14] text-white text-xs font-bold tracking-wider uppercase transition-all duration-300 flex items-center justify-center gap-2 cursor-pointer shadow-md shadow-orange-500/15"
-              >
-                Browse Student Curriculums
-                <ArrowRight className="w-3.5 h-3.5" />
-              </button>
-            </div>
-          </div>
-
         </div>
       </section>
 
@@ -231,7 +161,7 @@ export default function Home({
               <div className="absolute -left-4 -top-4 w-72 h-72 bg-[#E86A1A]/5 rounded-3xl blur-2xl -z-10"></div>
               <div className="relative">
                 <img
-                  src="/src/assets/images/boyschool.jpeg"
+                  src='boyschool.jpeg'
                   alt="Black Students Studying Online"
                   className="rounded-2xl shadow-xl border border-slate-100 object-cover w-full h-[420px]"
                   referrerPolicy="no-referrer"

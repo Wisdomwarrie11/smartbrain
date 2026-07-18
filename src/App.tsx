@@ -166,7 +166,7 @@ export default function App() {
     { id: 'courses', label: 'Courses' },
     { id: 'howitworks', label: 'How It Works' },
     { id: 'tutors', label: 'Tutors' },
-    { id: 'blog', label: 'Blog / Tips' },
+    { id: 'blog', label: 'Blog' },
     { id: 'contact', label: 'Contact Us' },
     { id: 'faq', label: 'FAQ' }
   ];
@@ -248,36 +248,6 @@ export default function App() {
 
   return (
     <div className="min-h-screen flex flex-col bg-slate-50/40 text-gray-800 font-sans">
-      {/* Top utility subheader bar */}
-      <div className="bg-[#1F3864] text-white border-b border-white/10 py-2.5 px-4 sm:px-6 lg:px-8 text-xs font-semibold">
-        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
-          <div className="flex flex-wrap items-center gap-4 sm:gap-6">
-            <span className="flex items-center gap-1.5">
-              <Globe className="w-3.5 h-3.5 text-[#E86A1A]" />
-              Calabar, Cross River State, Nigeria
-            </span>
-            <a href="mailto:smartbrainedtechacademy@gmail.com" className="flex items-center gap-1.5 hover:text-orange-200 transition-colors">
-              <Mail className="w-3.5 h-3.5 text-[#E86A1A]" />
-              smartbrainedtechacademy@gmail.com
-            </a>
-            <a href="tel:07034477971" className="flex items-center gap-1.5 hover:text-orange-200 transition-colors">
-              <Phone className="w-3.5 h-3.5 text-[#E86A1A]" />
-              07034477971
-            </a>
-          </div>
-          <div className="flex items-center gap-4">
-            <a
-              href="https://wa.me/2349044354766"
-              target="_blank"
-              referrerPolicy="no-referrer"
-              className="px-2.5 py-1 rounded bg-green-600 hover:bg-green-700 text-white font-bold text-[10px] uppercase flex items-center gap-1 shadow-sm transition-all cursor-pointer"
-            >
-              <MessageCircle className="w-3 h-3 fill-white" /> WhatsApp Admin
-            </a>
-          </div>
-        </div>
-      </div>
-
       {/* Main navigation header */}
       <header className="sticky top-0 bg-white/95 backdrop-blur-md border-b border-gray-100 z-40 shadow-xs">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
@@ -291,7 +261,7 @@ export default function App() {
             <img
             src="logosb.png"
             alt="Black students studying"
-            className="w-50 h-50 object-cover  filter brightness-[0.7] contrast-[1.1]"
+            className="w-40 h-40 object-cover  filter brightness-[0.7] contrast-[1.1]"
           />
             </div>
           </div>
@@ -404,7 +374,7 @@ export default function App() {
             <img
             src="logosb.png"
             alt="Black students studying"
-            className="w-50 h-50 object-cover  filter brightness-[0.7] contrast-[1.1]"
+            className="w-40 h-40 object-cover  filter brightness-[0.7] contrast-[1.1]"
           />
             </div>
 
@@ -453,7 +423,7 @@ export default function App() {
               </li>
               <li>
                 <button onClick={() => setActiveTab('faq')} className="hover:text-white hover:underline transition-all cursor-pointer">
-                  FAQ Accordions
+                  FAQ
                 </button>
               </li>
               <li>
