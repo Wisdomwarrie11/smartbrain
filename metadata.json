@@ -1,0 +1,6 @@
+{
+  "name": "SmartBrain EdTech Academy",
+  "description": "Online tutoring and eLearning platform delivering quality education for primary & secondary school students, working professionals, and lifelong learners across Nigeria and beyond.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
